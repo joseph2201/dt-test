@@ -1,0 +1,103 @@
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff5e57;
+  outline: none;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.cta-btn {
+  background-color: #ff5e57;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e14d44;
+}
+
+/* Contact Information */
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.contact-item {
+  text-align: left;
+  font-size: 18px;
+}
+
+.contact-item i {
+  font-size: 30px;
+  color: #ff5e57;
+  margin-right: 10px;
+}
+
+.contact-item p {
+  display: inline-block;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Google Map Section */
+.map {
+  margin-top: 50px;
+}
+
+.map iframe {
+  border-radius: 8px;
+}

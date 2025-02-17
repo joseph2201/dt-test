@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - DMV Registration Services</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">Dealer Tags</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="contact-btn">Contact Us</button>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or need assistance, don't hesitate to reach
+        out! Our team is ready to help you with your DMV registration needs.
+      </p>
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <div class="form-group">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+
+      <!-- Contact Info Section -->
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <p>Email: info@dealertags.com</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Address: 123 DMV Street, City, State, 12345</p>
+        </div>
+      </div>
+
+      <!-- Google Map Section (Optional) -->
+      <div class="map">
+        <h3>Find Us</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1234567890!2d-121.2815407!3d38.6943151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809acfa809fcd99f%3A0x8b65b01750c52c9b!2s6381+Auburn+Blvd,+Citrus+Heights,+CA!5e0!3m2!1sen!2sus!4v1627978815069!5m2!1sen!2sus"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Dealer Tags</p>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
